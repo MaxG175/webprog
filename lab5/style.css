@@ -1,0 +1,77 @@
+body{
+    background-image:url("https://i.gifer.com/HKJR.gif");
+
+}
+a{
+    color: antiquewhite;
+}
+a:hover{
+    text-decoration: none;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-family: Impact, serif;
+}
+.container{
+    width:450px;
+    background-color: rgba(24, 33, 52, 0.7);
+    margin: 100px auto 0 auto;
+    text-align: center;
+    box-shadow: 0 -5px 0 #3adbfd;
+    padding-bottom: 20px;
+    border-radius: 0 0 10px 10px;
+}
+
+.container img {
+    width: 300px;
+    height: 200px;
+    margin: -110px 0 30px 0;
+    padding-right: 10px;
+}
+
+input[type="text"],input[type="password"]{
+    width: 300px;
+    height:50px;
+    font-size: 18px;
+    margin-bottom: 25px;
+    padding-left: 10px;
+    border-radius: 4px;
+}
+
+.submit {
+    padding: 13px 30px;
+    margin: 5px 0 20px 0;
+    font-size: 15px;
+    color: #fff;
+    background-color:firebrick;
+    border: none;
+    border-bottom: 4px solid #6ee9fd;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.submit:hover{
+    transition: all 0.5s;
+    background: #FFFFff;
+    color: #000000;
+}
+
+
+
+h1:hover{
+    transition: all 0.5s;
+    color:darkcyan;
+    text-align: center;
+    font-size: 50px;
+    font-family: Impact, serif;
+}
+
+.change:hover{
+    transition: all 0.9s;
+    width: 350px;
+    height: 210px;
+    margin: -110px 0 30px 0;
+    padding-right: 10px;
+}
