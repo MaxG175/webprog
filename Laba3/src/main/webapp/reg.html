@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Регистрация</title>
+</head>
+<body>
+<p>Вас еще нет - Зарегистрируйтесь</p>
+    <form method="post" action="reg">
+        <input type="text" placeholder="Логин" name="login" required><br>
+        <input type="password" placeholder="Пароль" name="password" pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])[A-za-z0-9]{5,}" required><br>
+        <button type="submit">Зарегистрироваться</button>
+    </form>
+</body>
+</html>
